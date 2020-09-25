@@ -9,7 +9,7 @@ namespace HashConsole
         public static void Main(string[] args)  
         {   
             Console.Write("Enter a string .: ");
-			string plain_STR = plain_STR = Console.ReadLine();
+			string plain_STR = Console.ReadLine();
 			Console.WriteLine();
             Console.WriteLine("Raw data .: {0}", plain_STR);  
             string hashed_STR = ComputeSha256Hash(plain_STR);  
