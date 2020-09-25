@@ -14,7 +14,6 @@ namespace HashConsole
             Console.WriteLine("Raw data .: {0}", plain_STR);  
             string hashed_STR = ComputeSha256Hash(plain_STR);  
             Console.WriteLine("Hash 256 .: {0}", hashed_STR);  
-            //Console.WriteLine(ComputeSha256Hash(plain_STR));  
             Console.ReadLine();  
         }  
   
